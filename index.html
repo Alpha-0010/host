@@ -1,197 +1,233 @@
 <!DOCTYPE html>
+<html class="no-js" lang="en">
 
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> shashank Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
 <body>
-  
-  <div class="scroll-button">
-    <a href="#home"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#"></a></div>
-      <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Projects</a></li>
-          <li><a href="#contact">Contact Me!</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-      </ul>
-      <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
-  </nav>
-
-
- <section class="home" id="home">
-   <div class="home-content">
    
-     <div class="text">
-      <div style="margin-left: 800px ; margin-top: 50px;">
-        <img src="/home/shashwat/host/Images/pic.png" alt="">
-      </div>
-       <div class="text-one">Hello,</div>
-       <div class="text-two">I'm shashank</div>
-       <div class="text-three">From INDIA</div>
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+   
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>shashank sinha</h1>
+            <h2>Student</h2>
+            
+        </div>
        
-     </div>
-     
-   </div>
- </section>
 
+        <div id="lead-overlay"></div>
 
-<section class="about" id="about">
-  <div class="content">
-    <div class="title"><span>About Me</span></div>
-  <div class="about-details">
-    <div class="left">
-      <img src="/home/shashwat/host/Images/pic.png" alt="">
-    </div>
-    <div class="right">
-      <div class="topic">Full stack and problem solvig are My Passion </div>
-      <p>My name is Shashank sinha, I’m 20 years old and I recently am
-        pursuing BTech in Computer Science from Vellore Institute of
-        Technology.I’ve worked hard in my education to get a CGPA of
-        8.81 and now I’m ready to apply my knowledge into practice.Now,
-        I’m looking to leverage everything I’ve learned in ui and get
-        some hands-on work experience.</p>
-      
-    </div>
-  </div>
-  </div>
-</section>
-
-
-<section class="skills" id="skills">
- <div class="content">
-   <div class="title"><span>My Skills</span></div>
-   <div class="skills-details">
-     <div class="text">
-       <div class="topic">Skills</div>
-       <p>These are my skills which i have gained so far in my Btech journey</p>
-       <div class="experience">
-         <div class="num">3</div>
-         <div class="exp">Years Of <br> Btech</div>
-       </div>
-     </div>
-     <div class="boxes">
-       <div class="box">
-         <div class="topic">web dev</div>
-         <div class="per">70%</div>
-       </div>
-       <div class="box">
-         <div class="topic">block chain</div>
-         <div class="per">80%</div>
-       </div>
-       <div class="box">
-         <div class="topic">problem solving</div>
-         <div class="per">70%</div>
-       </div>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
        
-     </div>
-   </div>
- </div>
-</section>
+    </div>
+   
 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        My name is Shashank sinha, I’m 20 years old and I recently am pursuing BTech in Computer Science from Vellore Institute of Technology.I’ve worked hard in my education to get a CGPA of 8.81 and now I’m ready to apply my knowledge into practice.Now, I’m looking to leverage everything I’ve learned in ui and get some hands-on work experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
 
- <section class="services" id="services">
-   <div class="content">
-     <div class="title"><span>My projects</span></div>
-     <div class="boxes">
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-desktop"></i>
-       </div>
-       <div class="topic">whatsapp-clone</div>
-       <p>Used react, real time db to make a whatsapp clone </p> 
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-paint-brush"></i>
-       </div>
-       <div class="topic">vit-ranking</div>
-       <p>web app where vitians can calculate their cgpa,gpa and ranks</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-chart-line"></i>
-       </div>
-       <div class="topic">DecentraQuora</div>
-       <p>This is my most ambitious project as I even won an award for
-this in a hackathon. We used blockchain also in this.</p>
-     </div>
-     
-     
-   </div>
-   </div>
- </section>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Education</h2>
+        <div id="experience-timeline">
+            <div data-date="2015 – 2017">
+                <h3>maharishi vidya mandir</h3>
+                <h4>higher school</h4>
+                <p>
+                    </p>
+            </div>
 
+            <div data-date="2017 – 2019">
+                <h3>maharishi vidya mandir</h3>
+                <h4>school</h4>
+                <p>
+                    
+                </p>
+            </div>
 
-<section  class="contact" id="contact">
-  <div class="content">
-    <div class="title"><span>Contact Me</span></div>
-    <div class="text">
-      <div class="topic">Have Anything to share?</div>
-     
+            <div data-date="2019 – 2023">
+                <h3>vit vellore</h3>
+                <h4>college</h4>
+                <p>
+                   
+                </p>
+            </div>
+        </div>
+    </div>
     
-        </div>
-        
-      </div>
-      <div class="container">
-         
-         
-        <div class="row input-container">
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <input type="text" required />
-                <label>Name</label> 
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="styled-input">
-                <input type="text" required />
-                <label>Email</label> 
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="styled-input" style="float:right;">
-                <input type="text" required />
-                <label>Phone Number</label> 
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <textarea required></textarea>
-                <label>Message</label>
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="btn-lrg submit-btn">Send Message</div>
+
+   
+    
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>whatsapp-clone</h3>
+                        <p>
+                            Used react, real time db to make a whatsapp clone
+                        </p>
+                        <a href="https://github.com/shashank1642/whatsapp-clonereact">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>vit-ranking</h3>
+                        <p>
+                            web app where vitians can calculate their cgpa,gpa and ranks
+                        </p>
+                        <a href="https://github.com/shashank1642/vit-ranking">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
             </div>
         </div>
     </div>
-  </div>
-</section>
+    <!-- End #projects -->
 
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>Go</li>
+            <li>Node.js</li>
+            <li>AngularJs</li>
+            <li>React</li>
+            <li>Elixir</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Ruby on Rails</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>Go</li>
+            <li>Node.js</li>
+            <li>AngularJs</li>
+            <li>React</li>
+            <li>Elixir</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Ruby on Rails</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
 
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form>
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+       
+    </div>
+    
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2021 shashank sinha
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/shashank1642" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 
-  <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
